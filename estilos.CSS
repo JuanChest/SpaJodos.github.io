@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Estilos para el menú principal (header) */
+#menu-principal {
+    background-color: #A3A656;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+
+#enlaces-navegacion {
+    display: flex;
+    gap: 30px;
+}
+
+#enlaces-navegacion a {
+    font-weight: regular;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+#enlaces-navegacion a:hover {
+    color: #FFFF00;
+}
+
+#opciones-usuario {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#opciones-usuario a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    gap: 8px;
+    transition: color 0.3s ease;
+}
+
+#opciones-usuario a:hover {
+    color: #FFFF00;
+}
+
+.icono-usuario {
+    width: 30px;
+    height: 30px;
+}
+.icono-bandera {
+    width: 35px;
+    height: 30px;
+}
+
+.icono-flecha {
+    width: 14px;
+    height: 10px;
+}
+
+#inicio {
+    background-image: url('/images/main.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 667px;
+    background-color: #FFEFDF; /* color de fondo de apoyo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 150px;
+}
+
+#inicio h1 {
+    font-family: 'Romanesco', cursive;
+    font-size: 96px;
+    font-weight: regular;
+    color: #000000;
+    margin: 0;
+}
+
+#inicio h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: semi-bold;
+    color: #000000;
+    margin-top: 10px;
+    max-width: 700px;
+}
